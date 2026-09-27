@@ -1,6 +1,6 @@
 import { ArrowUpRight, Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
-const skills = [
+const skills: [string, string[]][] = [
   ["Programming", ["Java", "Python", "SQL"]],
   ["Core Computer Science", ["OOP", "DSA", "DBMS", "Operating Systems", "Software Engineering"]],
   ["Web Development", ["HTML", "CSS", "React.js"]],
